@@ -4,7 +4,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    gap: 3em;
+    gap: 2em;
 }
 #uber {
     background-color: #000;
@@ -44,7 +44,7 @@ body {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
 }
 .container_boot {
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 #boot_get {
     background-color: rgba(121, 82, 179, 1);
@@ -75,7 +75,7 @@ body {
     color: #fff
 }
 .container_link {
-    margin: 10px 0px;
+    margin: 10px 0;
 }
 .button_link_apply {
     border: none;
@@ -109,7 +109,7 @@ body {
     flex-direction: column;
 }
 .amazon_item {
-    margin: 5px 0px;
+    margin: 5px 0;
 }
 .amazon_link_back {
     text-decoration: underline;
@@ -135,4 +135,77 @@ body {
 }
 .button_amazon_buy:hover {
     background-color: rgb(217, 141, 27);
+}
+.container_google {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+#photo_google {
+    height: 100px;
+    width: 295px;
+}
+.google_search {
+    border-radius: 20px;
+    width: 400px;
+    border: none;
+    padding: 10px 70px 10px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    outline: 0;
+}
+.container_link_reg {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+}
+.link_reg_input {
+    width: 100%;
+    outline: 0;
+    padding: 5px 5px;
+    font-family: "arial";
+    border: 1px solid rgba(78, 78, 78, 1);
+    /*color: rgba(78, 78, 78, 1);*/
+    border-radius: 5px;
+}
+.link_reg_button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #0A66C2;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #fff;
+    font-family: Arial;
+}
+.container_tweet {
+    padding: 5px 10px;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+}
+.profile_photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.tweet_input {
+    padding: 5px 5px;
+    width: 80%;
+    outline: 0;
+    border: 0;
+}
+.tweet_button {
+    border: 0;
+    background-color: #1282e3;
+    color: #fff;
+    font-size: 15px;
+    padding: 8px 13px;
+    border-radius: 20px;
 }
