@@ -7,7 +7,19 @@
 </head>
 <!--test -->
 <body>
-<button id="uber">Request now</button>
+<form method="get">
+    <div class="container-uber-order">
+        <div class="ride-request">Request a ride now</div>
+        <div class="container-uber-input">
+            <input type="text" placeholder="Enter pickup location" class="uber-input">
+            <input type="text" placeholder="Enter destination" class="uber-input">
+        </div>
+        <div class="uber-buttons">
+            <button class="uber">Request now</button>
+            <button class="uber-button-later">Schedule for later</button>
+        </div>
+    </div>
+</form>
 <button class="button_amazon_add">Add to Cart</button>
 <button id="git">Sign up</button>
 <div class="container_boot">
@@ -35,12 +47,15 @@
 <div class="container_link_reg">
     <div style="color: rgba(78, 78, 78, 1);">Email</div>
     <input type="text" name="" class="link_reg_input" placeholder="">
-    <div style="color: rgba(78, 78, 78, 1);">By clicking <div style="display: inline-block; color: #084d91;">Agree & Join</div>, you agree to the Privacy Policy</div>
+    <div style="color: rgba(78, 78, 78, 1);">By clicking
+        <div style="display: inline-block; color: #084d91;">Agree & Join</div>
+        , you agree to the Privacy Policy
+    </div>
     <button class="link_reg_button">Agree & Join</button>
 </div>
 
 <div class="container_tweet">
-    <img src="photo/bohdan.jfif" class="profile_photo">
+    <img src="photo/bohdan.jfif" class="profile_photo" alt="Profile Photo">
     <input type="text" name="" class="tweet_input" placeholder="What's happening?">
     <button class="tweet_button">Tweet</button>
 </div>

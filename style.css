@@ -6,7 +6,32 @@ body {
     min-height: 100vh;
     gap: 2em;
 }
-#uber {
+
+.container-uber-order {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.ride-request {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-uber-input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.uber-input {
+    border: 0;
+    outline: 0;
+    background-color: #e5e5e5;
+    padding: 10px 7px;
+}
+
+.uber {
     background-color: #000;
     color: #ffffff;
     padding: 10px 15px;
@@ -15,9 +40,25 @@ body {
     opacity: 1;
     transition: opacity 0.3s;
 }
-#uber:hover {
+
+.uber:hover {
     opacity: 0.7;
 }
+
+.uber-button-later {
+    background-color: #e5e5e5;
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: background-color 0.3s;
+}
+
+.uber-button-later:hover {
+    background-color: #bebebe;
+}
+
 .button_amazon_add {
     border: none;
     background-color: rgba(255, 216, 20, 1);
@@ -27,9 +68,11 @@ body {
     border-radius: 30px;
     transition: background-color 0.3s;
 }
+
 .button_amazon_add:hover {
     background-color: rgb(225, 193, 21);
 }
+
 #git {
     border: none;
     color: #fff;
@@ -40,12 +83,15 @@ body {
     cursor: pointer;
     transition: box-shadow 0.2s;
 }
+
 #git:hover {
     box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
 }
+
 .container_boot {
     margin: 10px 0;
 }
+
 #boot_get {
     background-color: rgba(121, 82, 179, 1);
     border: none;
@@ -56,9 +102,11 @@ body {
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 #boot_get:hover {
     background-color: rgb(107, 71, 157);
 }
+
 #boot_download {
     background-color: #fff;
     color: rgba(108, 117, 125, 1);
@@ -70,13 +118,16 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
 }
+
 #boot_download:hover {
     background-color: rgba(108, 117, 125, 1);
     color: #fff
 }
+
 .container_link {
     margin: 10px 0;
 }
+
 .button_link_apply {
     border: none;
     color: #fff;
@@ -87,9 +138,11 @@ body {
     cursor: pointer;
     transition: background-color 0.4s;
 }
+
 .button_link_apply:hover {
     background-color: rgb(8, 77, 147);
 }
+
 .button_link_save {
     background-color: #fff;
     border: 2px solid #0A66C2;
@@ -101,29 +154,36 @@ body {
     cursor: pointer;
     transition: background-color 0.4s;
 }
+
 .button_link_save:hover {
     background-color: #e9f1ff;
 }
+
 .container_amazon {
     display: flex;
     flex-direction: column;
 }
+
 .amazon_item {
     margin: 5px 0;
 }
+
 .amazon_link_back {
     text-decoration: underline;
     color: rgba(0, 113, 133, 1);
 }
+
 .amazon_item_name {
     font-size: 20px;
     font-weight: bold;
 }
+
 .amazon_item_price {
     color: rgba(0, 118, 0, 1);
     font-weight: bold;
     font-size: 20px;
 }
+
 .button_amazon_buy {
     border: none;
     background-color: rgba(255, 164, 28, 1);
@@ -133,33 +193,39 @@ body {
     border-radius: 30px;
     transition: background-color 0.3s;
 }
+
 .button_amazon_buy:hover {
     background-color: rgb(217, 141, 27);
 }
+
 .container_google {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1em;
 }
+
 #photo_google {
     height: 100px;
     width: 295px;
 }
+
 .google_search {
     border-radius: 20px;
     width: 400px;
     border: none;
     padding: 10px 70px 10px 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.50);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
     outline: 0;
 }
+
 .container_link_reg {
     display: flex;
     flex-direction: column;
     gap: 10px;
     max-width: 300px;
 }
+
 .link_reg_input {
     width: 100%;
     outline: 0;
@@ -169,6 +235,7 @@ body {
     /*color: rgba(78, 78, 78, 1);*/
     border-radius: 5px;
 }
+
 .link_reg_button {
     width: 100%;
     padding: 10px 0;
@@ -179,6 +246,7 @@ body {
     color: #fff;
     font-family: Arial;
 }
+
 .container_tweet {
     padding: 5px 10px;
     width: 350px;
@@ -190,17 +258,20 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.30);
     border-radius: 10px;
 }
+
 .profile_photo {
     width: 50px;
     height: 50px;
     border-radius: 50px;
 }
+
 .tweet_input {
     padding: 5px 5px;
     width: 80%;
     outline: 0;
     border: 0;
 }
+
 .tweet_button {
     border: 0;
     background-color: #1282e3;
