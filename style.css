@@ -298,7 +298,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 150px;
 }
 .facebook-profile-photo {
     width: 100%;
@@ -334,4 +333,52 @@ body {
 }
 .facebook-friend-add-button:active {
     background-color: #005cb0;
+}
+.notifications-container {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid rgba(0, 0, 0, 0.2);*/
+    border-radius: 7px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.notifications-element {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 15px;
+    align-items: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.element1 {
+    border-radius: 7px 7px 0 0;
+}
+.element1:hover {
+    background-color: #bebebe;
+}
+.element1:active {
+    background-color: #989898;
+}
+.element2:hover {
+    background-color: #bebebe;
+    border-radius: 0;
+}
+.element2:active {
+    background-color: #989898;
+}
+.element3 {
+    border-radius: 0 0 7px 7px;
+}
+.element3:hover {
+    background-color: #bebebe;
+}
+.element3:active {
+    background-color: #989898;
+}
+.notifications-element-amount {
+    background-color: #0080f6;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 15px;
 }
