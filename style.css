@@ -230,7 +230,6 @@ body {
     width: 100%;
     outline: 0;
     padding: 5px 5px;
-    font-family: "arial";
     border: 1px solid rgba(78, 78, 78, 1);
     /*color: rgba(78, 78, 78, 1);*/
     border-radius: 5px;
@@ -244,7 +243,6 @@ body {
     border-radius: 20px;
     font-size: 15px;
     color: #fff;
-    font-family: Arial;
 }
 
 .container_tweet {
@@ -381,4 +379,37 @@ body {
     color: #fff;
     padding: 3px 10px;
     border-radius: 15px;
+}
+.container-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7vw;
+    background-color: #9a4c9a;
+    padding: 15px 15px;
+    justify-content: space-between;
+}
+.search-home {
+    color: #fff;
+}
+.search-input {
+    outline: 0;
+    width: 40vw;
+    border-radius: 15px;
+    border: 0;
+    padding: 7px 10px;
+}
+.search-button {
+    background-color: #9a4c9a;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 7px 15px;
+    transition: background-color 0.3s;
+}
+.search-button:hover {
+    background-color: #854285;
+    cursor: pointer;
+}
+.search-button:active {
+    background-color: #6c366c;
 }
